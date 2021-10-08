@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+.ani-stop {
+    animation-name: none !important;
+    opacity: 0;
+}
+
+[class *= ani-start] {
+	animation-delay:0s;
+	animation-duration:2s;
+	animation-fill-mode: both;
+}
+
+.ani-start-fadeLeft {
+    animation-name: fadeLeft;
+}
+
+.ani-start-fadeRight {
+    animation-name: fadeRight;
+}
+
+.ani-start-fadeUp {
+    animation-name: fadeUp;
+}
+
+.ani-delay-03 {
+    animation-delay: 0.3s;
+}
+
+.ani-delay-06 {
+    animation-delay: 0.6s;
+}
+
+.ani-delay-09 {
+    animation-delay: 0.9s;
+}
+
+@keyframes fadeLeft{
+    0% {transform: translateX(-10%); opacity: 0;}
+    100% {transform: translateX(0); opacity: 1;}
+}
+
+@keyframes fadeRight{
+    0% {transform: translateX(10%); opacity: 0;}
+    100% {transform: translateX(0); opacity: 1;}
+}
+
+@keyframes fadeUp{
+    0% {transform: translateY(10%); opacity: 0;}
+    100% {transform: translateY(0); opacity: 1;}
+}

@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+/* header */
+#header{background: #050402;}
+#header .inner{position: relative; height: 130px; z-index: 99999;}
+#header h1{position: absolute; left: 0; top: 20px; width: 100px;}
+#header h1 img{width: 100%;}
+
+#header .gnb{position: absolute; left: 190px; top: 60px;}
+#header .gnb >li{float: left;}
+#header .gnb >li >a{display: block; font-size: 25px; color: #fff; padding: 10px 50px 10px;}
+#header .gnb >li:hover >a{border-bottom: 2px solid #fff;}
+
+/* depth2 */
+#header .gnb .depth2{z-index: 999; background: #050402;}
+#header .gnb .depth2 li a{display: block; text-align: center; color: #fff; padding: 7px 15px; font-size: 20px; transition: background 0.5s, color 0.5s;}
+#header .gnb .depth2 li:hover a{background: #d9ccbc; color: #000;}
+
+#header .lnb{position: absolute; right: 0; top: 20px;}
+#header .lnb >li{float: left; padding-left: 30px;}
+#header .lnb >li >a{color: #fff;}
+
+
+/* visual */
+#visual {height: 420px; background: url(../images/sub2/visual_bg2.jpg) no-repeat center top;}
+#visual .inner{padding-top: 170px; text-align: center;}
+#visual .inner h2{font-size: 40px; font-weight: 600; color: #fff; text-transform: uppercase;}
+
+/* breadcrums */
+#visual .breadcrums {display: inline-block; padding-top: 20px;}
+#visual .breadcrums li{float: left; font-size: 14px; padding-left: 30px; background: url(../images/sub1/icon_arrow.png) no-repeat 10px 3px;}
+#visual .breadcrums li:nth-child(1){ background: url(../images/sub1/icon_home.png) no-repeat 0 0;}
+#visual .breadcrums li a{color: #fff;}
+
+
+/* contents */
+
+/* espresso */
+#contents .espresso{padding: 100px 20px;}
+#contents .espresso .txt{background: url(../images/sub2/esp_bg.jpg) no-repeat 715px top; height: 265px; margin-bottom: 75px;}
+#contents .espresso .txt h2{font-size: 40px; font-weight: 600; text-transform: uppercase; padding-bottom: 100px;}
+#contents .espresso .txt p{font-size: 20px;  padding-left: 50px;}
+#contents .espresso .list{padding-left: 120px;}
+#contents .espresso .list li{float: left; margin-left: 85px; width: 250px; height: 295px; font-size: 20px; text-align: center; text-transform: capitalize;}
+#contents .espresso .list li:nth-child(1){background: url(../images/sub2/esp.jpg) no-repeat center top; margin-left: 0;}
+#contents .espresso .list li:nth-child(2){background: url(../images/sub2/americano.jpg) no-repeat center top;}
+#contents .espresso .list li:nth-child(3){background: url(../images/sub2/latte.jpg) no-repeat center top;}
+#contents .espresso .list li a{display: block; padding-top: 265px;}
+
+/* brew */
+#contents .brew{padding: 0 20px 100px;}
+#contents .brew h2{font-size: 40px; font-weight: 600; text-transform: uppercase; padding-bottom: 30px;}
+#contents .brew p{font-size: 20px;  padding-left: 50px; padding-bottom: 50px;}
+#contents .brew .list{padding-left: 120px;}
+#contents .brew .list li{float: left; margin-left: 85px; width: 250px; height: 295px; font-size: 20px; text-align: center; text-transform: capitalize;}
+#contents .brew .list li:nth-child(1){background: url(../images/sub2/drip.jpg) no-repeat center top; margin-left: 0;}
+#contents .brew .list li:nth-child(2){background: url(../images/sub2/aero.jpg) no-repeat center top;}
+#contents .brew .list li:nth-child(3){background: url(../images/sub2/chemex.jpg) no-repeat center top;}
+#contents .brew .list li a{display: block; padding-top: 265px;}
+
+/* mojito */
+#contents .mojito{padding: 0 20px 100px;}
+#contents .mojito h2{font-size: 40px; font-weight: 600; text-transform: uppercase; padding-bottom: 30px;}
+#contents .mojito p{font-size: 20px;  padding-left: 50px; padding-bottom: 50px;}
+#contents .mojito .list{padding-left: 120px;}
+#contents .mojito .list li{float: left; margin-left: 85px; width: 250px; height: 295px; font-size: 20px; text-align: center; text-transform: capitalize;}
+#contents .mojito .list li:nth-child(1){background: url(../images/sub2/mojito.jpg) no-repeat center top; margin-left: 0;}
+#contents .mojito .list li:nth-child(2){background: url(../images/sub2/mojito2.jpg) no-repeat center top;}
+#contents .mojito .list li a{display: block; padding-top: 265px;}
+
+
+/* footer */
+#footer{background: #181818;}
+#footer .inner{height: 180px; position: relative; color: #999;}
+#footer .footer_logo{position: absolute; left: 0; top: -10px; transform: scale(0.6);}
+#footer address{position: absolute; left: 180px; top: 30px;}
+#footer .copy{position: absolute; left: 180px; top: 120px;}
+#footer .sns{position: absolute; right: 25px; top: 25px;}
+#footer .sns li{float: left; padding-left: 30px;}
+#footer .sns li a{display: block; width: 60px; height: 60px; text-align: center;}
+#footer .sns li:nth-child(1) a{background: #084093; border-radius: 50%; padding-top: 15px;}
+#footer .sns li:nth-child(2) a{background: #0db9f9; border-radius: 50%; padding-top: 15px;}
+#footer .sns li:nth-child(3) a{background: #eb0505; border-radius: 50%; padding-top: 20px;}
+
+
+/* gotop */
+.gotop{display: inline-block; background: rgba(0,0,0,0.2) url(../images/common/gotop.png) no-repeat center center; position: fixed; right: 50px; bottom: 50px; width: 50px; height: 50px; border-radius: 50%; font-size: 0;}

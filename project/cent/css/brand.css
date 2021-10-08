@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+/* header */
+#header{background: #050402;}
+#header .inner{position: relative; height: 130px; z-index: 99999;}
+#header h1{position: absolute; left: 0; top: 20px; width: 100px;}
+#header h1 img{width: 100%;}
+
+#header .gnb{position: absolute; left: 190px; top: 60px;}
+#header .gnb >li{float: left;}
+#header .gnb >li >a{display: block; font-size: 25px; color: #fff; padding: 10px 50px 10px;}
+#header .gnb >li:hover >a{border-bottom: 2px solid #fff;}
+
+/* depth2 */
+#header .gnb .depth2{z-index: 999; background: #050402;}
+#header .gnb .depth2 li a{display: block; text-align: center; color: #fff; padding: 7px 15px; font-size: 20px; transition: background 0.5s, color 0.5s;}
+#header .gnb .depth2 li:hover a{background: #d9ccbc; color: #000;}
+
+#header .lnb{position: absolute; right: 0; top: 20px;}
+#header .lnb >li{float: left; padding-left: 30px;}
+#header .lnb >li >a{color: #fff;}
+
+
+/* visual */
+#visual {height: 420px; background: url(../images/sub1/visual_bg.jpg) no-repeat center top;}
+#visual .inner{padding-top: 170px; text-align: center;}
+#visual .inner h2{font-size: 40px; font-weight: 600; color: #fff; text-transform: uppercase;}
+
+/* breadcrums */
+#visual .breadcrums {display: inline-block; padding-top: 20px;}
+#visual .breadcrums li{float: left; font-size: 14px; padding-left: 30px; background: url(../images/sub1/icon_arrow.png) no-repeat 10px 3px;}
+#visual .breadcrums li:nth-child(1){ background: url(../images/sub1/icon_home.png) no-repeat 0 0;}
+#visual .breadcrums li a{color: #fff;}
+
+
+/* contents */
+
+/* cent */
+#contents .cent{padding: 90px 20px 150px;}
+#contents .cent .cent_01{background: url(../images/sub1/cent_01.jpg) no-repeat 620px top;}
+#contents .cent .cent_01 h2{font-size: 40px; font-weight: 600; padding-bottom: 120px;}
+#contents .cent .cent_01 p{font-size: 20px; padding-bottom: 60px;}
+#contents .cent .cent_02{padding-top: 100px; background: url(../images/sub1/cent_02.jpg) no-repeat 0 100px;}
+#contents .cent .cent_02 p{font-size: 20px; padding: 348px 0 0 620px;}
+
+/* coffee */
+#contents .coffee{background: #D9CCBC; padding: 100px 0;}
+#contents .coffee .inner{padding: 0 20px;}
+#contents .coffee .coffee_01{background: url(../images/sub1/coffee_01.jpg) no-repeat 620px top;}
+#contents .coffee .coffee_01 h2{font-size: 40px; font-weight: 600; padding-bottom: 100px;}
+#contents .coffee .coffee_01 p{font-size: 20px; padding-bottom: 50px;}
+#contents .coffee .coffee_02{padding-top: 95px;}
+#contents .coffee .coffee_02 li{float: left; font-size: 20px;}
+#contents .coffee .coffee_02 li:nth-child(1){padding-right: 260px;}
+#contents .coffee .coffee_02 dt{font-size: 30px; font-weight: 600; padding-bottom: 40px;}
+
+/* idea */
+#contents .idea{padding: 80px 20px; text-align: center;}
+#contents .idea ul{padding: 90px 0 70px 360px; }
+#contents .idea ul li{float: left; width: 80px; height: 80px; margin-right: 90px;}
+#contents .idea ul li:nth-child(1){background: #050402; border-radius: 50%; font-size: 0;}
+#contents .idea ul li:nth-child(2){background: #d9ccbc; border-radius: 50%; font-size: 0;}
+#contents .idea ul li:nth-child(3){background: #704733; border-radius: 50%; font-size: 0;}
+#contents .idea p{font-size: 20px;}
+
+
+/* footer */
+#footer{background: #181818;}
+#footer .inner{height: 180px; position: relative; color: #999;}
+#footer .footer_logo{position: absolute; left: 0; top: -10px; transform: scale(0.6);}
+#footer address{position: absolute; left: 180px; top: 30px;}
+#footer .copy{position: absolute; left: 180px; top: 120px;}
+#footer .sns{position: absolute; right: 25px; top: 25px;}
+#footer .sns li{float: left; padding-left: 30px;}
+#footer .sns li a{display: block; width: 60px; height: 60px; text-align: center;}
+#footer .sns li:nth-child(1) a{background: #084093; border-radius: 50%; padding-top: 15px;}
+#footer .sns li:nth-child(2) a{background: #0db9f9; border-radius: 50%; padding-top: 15px;}
+#footer .sns li:nth-child(3) a{background: #eb0505; border-radius: 50%; padding-top: 20px;}
+
+
+/* gotop */
+.gotop{display: inline-block; background: rgba(0,0,0,0.2) url(../images/common/gotop.png) no-repeat center center; position: fixed; right: 50px; bottom: 50px; width: 50px; height: 50px; border-radius: 50%; font-size: 0;}
