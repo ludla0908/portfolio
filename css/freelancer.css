@@ -103,10 +103,6 @@ header .container {
     padding-bottom: 50px;
 }
 
-/* header img {
-    display: block;
-    margin: 0 auto 20px;
-} */
 
 header .intro-text .name {
     display: block;
@@ -195,7 +191,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: url('../img/about_bg.jpg') no-repeat center top fixed; background-size: cover;
+    background: url('../img/portfolio/h_bg.jpg') no-repeat center top fixed; background-size: cover;
 }
 
 section.success a,
@@ -226,7 +222,7 @@ section.success a.active {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 400px;
+/*    max-width: 400px;*/
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
@@ -366,9 +362,9 @@ footer .footer-col {
 }
 
 footer .footer-below {
-    padding: 80px 0;
+    padding: 100px 0;
     background-color: #000;
-    color: rgba(255,255,255,0.6);
+    color: rgba(255,255,255,0.3);
 }
 
 .btn-social {
@@ -421,7 +417,7 @@ footer .footer-below {
 }
 
 .portfolio-modal .modal-content h2 {
-    margin: 0 0 50px;;
+    margin: 0 0 50px;
     font-size: 3em;
 }
 
@@ -474,7 +470,9 @@ footer .footer-below {
 }
 
 
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus { background: transparent; color:#18bc9c; }
+#epilogue p { font-size: 16px; text-align: center; color: #999; padding: 10px 0; }
+#epilogue p.slogan { padding: 20px 0; color: #18bc9c; }
+
 
 
 .success ul { padding: 0; }
@@ -482,6 +480,36 @@ footer .footer-below {
 .profile li { border-top: 1px solid rgba(255,255,255,0.3); }
 .profile li a { color: #fff; }
 
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus { background: transparent; color:#18bc9c; }
 
-#epilogue p { font-size: 16px; text-align: left ; color: #666; padding: 10px 0; }
-#epilogue p.slogan { text-align: center ; padding: 20px 0; color: #025951; }
+
+.skill { margin-top: 20px; }
+.chart {
+    display: inline-block;
+    width: 110px;
+    height: 110px;
+    margin: 10px;
+    vertical-align: top;
+    position: relative;
+    box-sizing: border-box;
+    padding-top: 18px;
+    text-align: center;
+}
+.chart span {
+    display: block;
+    font-size: 2em;
+    font-weight: normal;
+}
+.chart canvas{ 
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+h3 { font-weight: normal; font-size: 20px; margin-bottom: 50px; color: #999; }
+
+
+
+
