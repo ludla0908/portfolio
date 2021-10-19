@@ -364,7 +364,7 @@ footer .footer-col {
 }
 
 footer .footer-below {
-    padding: 100px 0;
+    padding: 50px 0;
     background-color: #000;
     color: rgba(255,255,255,0.3);
 }
@@ -473,7 +473,7 @@ footer .footer-below {
 
 
 #epilogue p { font-size: 16px; text-align: center; color: #999; padding: 10px 0; }
-#epilogue p.slogan { padding: 20px 0; color: #18bc9c; }
+#epilogue p.slogan { padding: 20px 0; color: #18bc9c; text-transform: capitalize;}
 
 
 
@@ -494,3 +494,5 @@ h4 { font-size: 16px; margin-bottom: 10px; font-weight: 500; }
 .progress-wrap{ position: relative; }
 .progress-bar { background: #f35e09;}
 .progress-bar span { position: absolute; top: 2px; right: 30px; font-size: 16px; font-weight: 500; color: #ffffff; }
+
+.list-inline li{padding: 10px;}
