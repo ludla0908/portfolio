@@ -1,0 +1,9 @@
+@charset "utf8";
+
+html { scroll-behavior: smooth; }
+body { margin: 0; padding: 0; overflow-x: hidden; background: #fff; min-width: 320px; }
+#wrap { width: 100%; margin: 0 auto; }
+img { display: block; width: 100%; }
+.btn { position: fixed; right: 0; bottom: 0; }
+.btn a.gotop { text-decoration: none; color: #fff; display: block; width: 60px; padding: 20px 0; text-align: center; background: rgba(0,0,0,0.7);}
+.btn a.gotop img{width: 40%; margin: 0 auto;}
