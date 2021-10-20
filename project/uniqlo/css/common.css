@@ -1,9 +1,26 @@
 @charset "utf8";
 
 html { scroll-behavior: smooth; }
-body { margin: 0; padding: 0; overflow-x: hidden; background: #fff; min-width: 320px; }
-#wrap { width: 100%; margin: 0 auto; }
+body { margin: 0; padding: 0; overflow-x: hidden; background: #f5efc4; min-width: 320px; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+a { color: #000; text-decoration: none; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; } 
+ol, ul { list-style: none; }
+table { border-collapse: collapse; border-spacing: 0; border: 0 none; width: 100%; }
+address, caption, em { font-weight: normal; font-style: normal; }
+caption, legend, hr { display: none; }
+fieldset, img, input { border: 0 none; outline: none; } 
+input, select, textarea { vertical-align: middle; }
+
+
+#wrap { width: 70%; margin: 0 auto; }
 img { display: block; width: 100%; }
-.btn { position: fixed; right: 0; bottom: 0; }
-.btn a.gotop { text-decoration: none; color: #fff; display: block; width: 60px; padding: 20px 0; text-align: center; background: rgba(0,0,0,0.7);}
-.btn a.gotop img{width: 40%; margin: 0 auto;}
+.btn { position: fixed; right: 15%; bottom: 0; transform: translateX(60px); }
+
+/* gotop */
+.gotop{display: inline-block; background: rgba(0,0,0,0.2) url(../images/gotop.png) no-repeat center center; position: fixed; right: 0; bottom: 50px; width: 50px; height: 50px; border-radius: 50%; font-size: 0;}
+.btn a.gotop img{width: 40%; margin: 12px auto;}
+
+/* view */
+.view { display: inline-block; background: rgba(0,0,0,0.3); position: fixed; right: 0; bottom: 120px; width: 50px; height: 50px; border-radius: 50%; color: #fff; text-align: center; padding: 13px 0;}
+.view:hover{ background: rgba(0,0,0,0.7) }
